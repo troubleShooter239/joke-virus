@@ -1,0 +1,7 @@
+1. Install pyinstaller
+
+2. Open console in your project folder and enter this code:
+pyinstaller -w -F sys32.py
+
+If you using virtual environment, try this code:
+pyinstaller --paths path\to\venv\Lib\site-packages -w -F sys32.py
